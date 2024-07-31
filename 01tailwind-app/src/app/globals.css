@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
 
-    html{
-         @apply bg-slate-600 text-yellow-500 text-lg font-bold;
-         
-    
+    html {
+
+        @apply text-yellow-500 ;
+
+        font-family: "Kalnia Glaze", serif;
+        
     }
-}   
+}
